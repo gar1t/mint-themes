@@ -43,7 +43,7 @@ StScrollBar StButton#vhandle,
 StScrollBar StButton#hhandle {
 	background-color: rgba(0,0,0,0.85);
 	border: 1px solid rgba(255,255,255,0.1);
-	border-radius: 3px;
+	border-radius: 0px;
 	transition-duration: 100;
 }
 
@@ -135,6 +135,18 @@ StScrollBar StButton#hhandle:hover {
 	-arrow-base: 21px;
 	-arrow-rise: 10px;
 	-boxpointer-gap: 3px;
+}
+
+.popup-menu {
+    color: rgb(70, 70, 70);
+    min-width: 100px;
+}
+
+.menu {
+    background-color: rgba(15,15,15,0.92);
+    border-width: 1px;
+    border-color: rgba(40, 40, 40, 0.3);
+    min-width: 100px;
 }
 
 .popup-menu {
@@ -275,11 +287,8 @@ StScrollBar StButton#hhandle:hover {
  * ===================================================================*/
 
 #panel {
-	background-color: rgba(0,0,0,0.72);
-	box-shadow: 0px 0 3px 1px rgba(0,0,0,0.6);
-	border: 1px solid rgba(0,0,0,0.85);
-	border-left: 0px;
-	border-right: 0px;
+	background-color: rgba(0,0,0,0.2);
+        border: 0px;
 	font-size: 9pt;
 	font-weight: normal;
 	height: 25px;
@@ -1460,11 +1469,11 @@ StScrollBar StButton#hhandle:hover {
 
 /* Main menu title */
 .menu-favorites-box {
-	background-color: rgba(0,0,0,0.72);
+	background-color: rgba(0,0,0,0.2);
 	border: 1px solid rgba(255,255,255,0.1);
 	margin: auto;
 	padding: 3px;
-	border-radius: 3px;
+	border-radius: 0px;
 }
 
 .menu-favorites-button {
